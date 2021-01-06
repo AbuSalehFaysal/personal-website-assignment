@@ -25,6 +25,7 @@ Author: Abu Saleh Faysal
 */
 body {
     background: #E5E5E5;
+    margin: 0;
 }
 
 /**
@@ -303,6 +304,7 @@ header {
     margin-left: 500px;
     width: 80px;
     text-decoration: none;
+    font-family: Roboto;
 }
 .container .btn:hover {
     background-color: #fff;
