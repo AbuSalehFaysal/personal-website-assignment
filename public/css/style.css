@@ -1,11 +1,40 @@
+/*
+Project Name: Portfolio Website Assignment Programming Hero
+Project URL: https://abusalehfaysal.github.io/personal-website-assignment/
+Author: Abu Saleh Faysal
+*/
+
+/**
+* Table of Contents:
+*-----------------------------------------------------------------------------
+* 01.0 - Body
+* 02.0 - Header/Navigation
+* 03.0 - Introduction
+* 04.0 - About
+* 05.0 - Working Project
+* 06.0 - Portfolio
+* 07.0 - Work Inquiry
+* 08.0 - Footer
+* -----------------------------------------------------------------------------
+*/
+
+/**
+*------------------------------------------------------------------------------
+* 01.0 - Body
+* -----------------------------------------------------------------------------
+*/
 body {
     background: #E5E5E5;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 02.0 - HEADER/NAVIGATION
+* -----------------------------------------------------------------------------
+*/
 header {
     height: 40px;
 }
-
 .navigation-bar {
     background: red;
     padding: 20px;
@@ -13,7 +42,6 @@ header {
     background: #E5E5E5;
     margin-right: 5%;
 }
-
 .navigation-bar a {
     text-decoration: none;
     padding: 10px 20px;
@@ -22,17 +50,20 @@ header {
     font-weight: bolder;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 03.0 - INTRODUCTION
+* -----------------------------------------------------------------------------
+*/
 .introduction {
     height: 550px;
     margin-top: 20px;
 }
-
 .intro-left {
     width: 720px;
     float: left;
     height: 396px;
 }
-
 .intro-left h1{
     margin-left: 135px;
     font-family: Bebas Neue;
@@ -43,11 +74,9 @@ header {
     color: #363958;
     margin-bottom: 34px;
 }
-
 .intro-left h1 span {
     color: #F46060;
 }
-
 .intro-left p {
     margin-left: 135px;
     font-family: Roboto;
@@ -58,7 +87,6 @@ header {
     color: #363958;
     margin-bottom: 30px;
 }
-
 .button {
     margin-left: 135px;
     padding: 10px 20px;
@@ -72,43 +100,41 @@ header {
     width: 170px;
     height: 60px;
 }
-
 .button:hover {
     background: #fff;
     color: #F46060;
 }
-
 .intro-right {
     width: 720px;
     float: left;
 }
-
 .intro-right img {
     width: 600px;
     height: 500px;
     margin-left: 0;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 04.0 - ABOUT
+* -----------------------------------------------------------------------------
+*/
 .about-me {
     height: 570px;
 }
-
 .about-me-left {
     width: 720px;
     float: left;
 }
-
 .about-me-left img {
     width: 500px;
     height: 500px;
     margin-left: 123px;
 }
-
 .about-me-right {
     width: 720px;
     float: right;
 }
-
 .about-me-right h1 {
     font-family: Bebas Neue;
     font-style: normal;
@@ -119,7 +145,6 @@ header {
     margin-top: 100px;
     color: #363958;
 }
-
 .about-me-right p {
     margin-left: 200px;
     margin-right: 100px;
@@ -131,15 +156,18 @@ header {
     color: #3E3E3E;
     margin-bottom: 50px;
 }
-
 .about-me-right a {
     margin-left: 200px;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 05.0 - WORKING PROJECT
+* -----------------------------------------------------------------------------
+*/
 .working-project {
     height: 550px;
 }
-
 .working-project h1 {
     font-family: Bebas Neue;
     font-style: normal;
@@ -149,15 +177,12 @@ header {
     color: #363958;
     text-align: center;
 }
-
 .working-project span {
     color: #F46060;
 }
-
 .box {
     margin-left: 135px;
 }
-
 .small-box {
     height: 374px;
     width: 370px;
@@ -167,13 +192,11 @@ header {
     border-radius: 10px;
     background: #fff;
 }
-
 .small-box img {
     width: 343.54px;
     height: 213.23px;
     margin: 12px;
 }
-
 .small-box h3 {
     font-family: Roboto;
     font-style: normal;
@@ -183,7 +206,6 @@ header {
     color: #363958;
     margin-left: 12px;
 }
-
 .small-box p {
     font-family: Roboto;
     font-style: normal;
@@ -194,11 +216,15 @@ header {
     margin-left: 12px;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 06.0 - COMEPLETED PROJECT
+* -----------------------------------------------------------------------------
+*/
 .completed-project {
     height: 500px;
     text-align: center;
 }
-
 .completed-project h1 {
     font-family: Bebas Neue;
     font-style: normal;
@@ -207,12 +233,10 @@ header {
     line-height: 48px;
     color: #363958;
 }
-
 .completed-project a {
     font-family: Roboto;
     font-size: 20px;
 }
-
 .button-green-inverse {
     background-color: #fff;
     color: #2ECC71;
@@ -221,12 +245,10 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 .button-green-inverse:hover {
     background-color: #2ECC71;
     color: #fff;
 }
-
 .button-purple-inverse {
     background-color: #fff;
     color: #154360;
@@ -235,35 +257,35 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 .button-purple-inverse:hover {
     background-color: #154360;
     color: #fff;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 07.0 - WORK INQUIRY
+* -----------------------------------------------------------------------------
+*/
 .work-inquiry {
     height: 350px;
 }
-
 .work-inquiry img {
     width: 906px;
     height: 225px;
     margin: 50px 267px;
 }
-
 .work-inquiry .img-button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .container {
     position: relative;
     width: 100%;
     max-width: 400px;
 }
-
 .container .btn {
     position: absolute;
     top: 50%;
@@ -282,7 +304,10 @@ header {
     width: 80px;
     text-decoration: none;
 }
-
+.container .btn:hover {
+    background-color: #fff;
+    color: #F46060;
+}
 .container h1 {
     position: absolute;
     top: 35%;
@@ -301,13 +326,7 @@ header {
     font-size: 64px;
     line-height: 64px;
     color: #FFFFFF;
-}
-  
-.container .btn:hover {
-    background-color: #fff;
-    color: #F46060;
-}
-
+} 
 .contact h2{
     text-align: center;
     font-family: Bebas Neue;
@@ -317,7 +336,6 @@ header {
     line-height: 24px;
     color: #696871;
 }
-
 .contact h1{
     font-family: Roboto;
     font-style: normal;
@@ -328,48 +346,45 @@ header {
     text-align: center;
     margin-top: 2px;
 }
-
 .icon {
     height: 50px;
     text-align: center;
 }
-
 .icon img {
     height: 40px;
     width: 40px;
     margin: 2px 10px;
 }
 
+/**
+*------------------------------------------------------------------------------
+* 08.0 - FOOTER
+* -----------------------------------------------------------------------------
+*/
 footer {
     background: #fff;
     bottom: 0;
     margin-top: 168px;
     font-family: Roboto;
 }
-
 footer div {
     text-align: center;
     text-decoration: none;
     padding: 10px 20px;
 }
-
 footer a {
     text-decoration: none;
     color: royalblue;
 }
-
 footer .fa-facebook-square {
     color: #4267B2;
 }
-
 footer .fa-twitter-square {
     color: #00acee;
 }
-
 footer .fa-linkedin {
     color: #0e76a8;
 }
-
 footer .fa-github-square {
     color: #333;
 }
