@@ -129,10 +129,15 @@ header {
     font-size: 16px;
     line-height: 24px;
     color: #3E3E3E;
+    margin-bottom: 50px;
+}
+
+.about-me-right a {
+    margin-left: 200px;
 }
 
 .working-project {
-    height: 766px;
+    height: 550px;
 }
 
 .working-project h1 {
@@ -145,6 +150,10 @@ header {
     text-align: center;
 }
 
+.working-project span {
+    color: #F46060;
+}
+
 .box {
     margin-left: 135px;
 }
@@ -154,6 +163,9 @@ header {
     width: 370px;
     float: left;
     margin-left: 30px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    background: #fff;
 }
 
 .small-box img {
@@ -180,6 +192,53 @@ header {
     line-height: 28px;
     color: #6C6C6C;
     margin-left: 12px;
+}
+
+.completed-project {
+    height: 500px;
+    text-align: center;
+}
+
+.completed-project h1 {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+}
+
+.completed-project a {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.button-green-inverse {
+    background-color: #fff;
+    color: #2ECC71;
+    border: 1px solid #2ECC71;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-green-inverse:hover {
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.button-purple-inverse {
+    background-color: #fff;
+    color: #154360;
+    border: 1px solid #154360;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-purple-inverse:hover {
+    background-color: #154360;
+    color: #fff;
 }
 
 .work-inquiry {
@@ -279,4 +338,38 @@ header {
     height: 40px;
     width: 40px;
     margin: 2px 10px;
+}
+
+footer {
+    background: #fff;
+    bottom: 0;
+    margin-top: 168px;
+    font-family: Roboto;
+}
+
+footer div {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+footer .fa-facebook-square {
+    color: #4267B2;
+}
+
+footer .fa-twitter-square {
+    color: #00acee;
+}
+
+footer .fa-linkedin {
+    color: #0e76a8;
+}
+
+footer .fa-github-square {
+    color: #333;
 }

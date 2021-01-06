@@ -5,39 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <title>Abu Saleh Faysal</title>
 </head>
 <body>
     <header>
         <div class="navigation-bar">
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a data-scroll href="#aboutMe">About</a>
+            <a data-scroll href="#workingProject">Work</a>
+            <a data-scroll href="#portfolio">Portfolio</a>
+            <a data-scroll href="#contact">Contact</a>
         </div>
     </header>
     <section class="introduction">
         <div class="intro-left">
             <h1>Hello, I'm <br><span>Abu Saleh Faysal</span></h1>
-            <p>A full stack allaround designer that placerat <br> in massa consectetur</p>
+            <p>Full-Stack Web Developer</p>
             <a class="button" href="#">Hire me</a>
         </div>
         <div class="intro-right">
             <img src="public/img/AbuSalehFaysal1.png" alt="">
         </div>
     </section>
-    <section class="about-me">
+    <section id="aboutMe" class="about-me">
         <div class="about-me-left">
             <img src="public/img/AbuSalehFaysal2.png" alt="">
         </div>
         <div class="about-me-right">
             <h1>About Me</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Experienced web developer with a demonstrated history of working in several tech startups. Skilled in Fullstack Web Development, Digital Marketing, and Content Writing. Strong software professional with a Bachelor of Science focused on Computer Science and Engineering from BRAC University.</p>
+            <a class="button" href="public/pdf/Resume_of_AbuSalehFaysal.pdf" target="_blank"><i class="fa fa-download"></i> Download CV</a>
         </div>
     </section>
-    <section class="working-project">
-        <h1>Latest Working Project</h1>
+    <section id="workingProject" class="working-project">
+        <h1><span>Latest</span> Working Project</h1>
         <div class="box">
             <div class="small-box">
                 <img src="public/img/project1.png" alt="">
@@ -56,7 +58,34 @@
             </div>
         </div>
     </section>
-    <section class="work-inquiry">
+    <section id="portfolio" class="completed-project">
+        <h1>Completed Project</h1>
+        <a href="https://library-by-abusalehfaysal.herokuapp.com/books" target="_blank" class="button-green-inverse">Library Management System using Node.js(Express.js), MongoDB</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://blogsite-by-abusalehfaysal.herokuapp.com/" target="_blank" class="button-purple-inverse">Blog Site Application using Node.js(Express.js), MongoDB</a>
+        <br>
+        <br>
+        <br>
+        <a href="http://ci-crud-by-abusalehfaysal.epizy.com/" target="_blank" class="button-green-inverse">CRUD Application CodeIgniter using CodeIgniter</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://movielist-by-abusalehfaysal.herokuapp.com/" target="_blank" class="button-purple-inverse">Movie List Search Application using Node.js(Express.js)</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://todolist-by-abusalehfaysal.netlify.app/" target="_blank" class="button-green-inverse">To Do List using HTML, CSS & jQuery</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://colorgame-by-abusalehfaysal.netlify.app/" target="_blank" class="button-purple-inverse">The RGB Color Game using HTML, CSS & JavaScript</a>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="contact" class="work-inquiry">
         <div class="container">
             <img src="public/img/banner.png" alt="">
             <h1>Work Inquiry</h1>
@@ -72,5 +101,27 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div>
+          © 2020 Copyright
+          <a target="_blank" href="https://abusalehfaysal.github.io/">
+            Abu Saleh Faysal
+          </a>
+          <a target="_blank" href="https://www.facebook.com/AbuSalehFaysal10"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+          <a target="_blank" href="https://twitter.com/AbuSalehFaysal"
+            ><i class="fa fa-twitter-square"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/abu-saleh-faysal-87380811a/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/AbuSalehFaysal"
+            ><i class="fa fa-github-square"></i
+          ></a>
+        </div>
+    </footer>
 </body>
 </html>
